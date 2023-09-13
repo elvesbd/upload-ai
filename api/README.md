@@ -1,4 +1,4 @@
-# API de Transcrição de Vídeo
+# Upload IA API
 
 Esta API foi desenvolvida durante a NLW IA promovida pela [Rocketseat](https://www.rocketseat.com.br/) e permite o upload de arquivos de vídeos .mp3, a transcrição de áudio e a geração de resumos com base na transcrição utilizando a [OpenAI](https://openai.com/).
 
