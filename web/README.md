@@ -15,6 +15,13 @@ Este projeto é uma aplicação React que tem como funcionalidade a realização
 - Estilização: [tailwindcss](https://tailwindcss.com/)
 - Inteligência Artificial: [openai](https://openai.com/)
 
+## Instalação e Uso
+
+1. Clone este repositório: `git clone https://github.com/elvesbd/upload-ai`
+2. Navegue até o diretório do projeto: `cd web`
+3. Instale as dependências: `npm install`, `yarn install` ou `pnpm install`
+4. Inicie o servidor de desenvolvimento: `npm run dev`, `yarn dev` ou `pnpm dev`
+
 ## 🤝 Colaborador
 
 <table>
