@@ -1,6 +1,6 @@
 # Upload IA Web
 
-<img src="https://i.imgur.com/sxK4dfy.png" alt="exemplo imagem">
+<img src="https://i.imgur.com/B0hS1YS.png" alt="exemplo imagem">
 
 # Descrição
 

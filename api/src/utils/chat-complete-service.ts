@@ -1,9 +1,8 @@
 import { openai } from '../lib/openai';
-
 export class ChatCompleteService {
-  static async execute(transcription: string, template: string, temperature: number) {
+  static async execute(transcription: string, prompt: string, temperature: number) {
     try {
-      const promptMessage = template.replace('{transcription}', transcription)
+      const promptMessage = prompt.replace('{transcription}', transcription)
       const response = await openai.chat.completions.create({
         model: 'gpt-3.5-turbo-16k',
         temperature,
@@ -12,7 +11,8 @@ export class ChatCompleteService {
             role: 'user',
             content: promptMessage
           }
-        ]
+        ],
+        stream: true,
       })
 
       if (!response) {
